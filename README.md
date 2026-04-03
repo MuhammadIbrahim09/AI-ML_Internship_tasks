@@ -1,6 +1,7 @@
 # AI-ML_Internship_tasks
 A collection of AI/ML tasks completed during my internship, covering classification, regression, and data preprocessing.
 This repository contains four key machine learning projects completed during my AI/ML internship. Each project demonstrates proficiency in data handling, model building, and results visualization.
+
 **🌸 Task 1: Iris Flower Classification**
 Objective: In this task,I have used iris dataset.In this task,i have seen how to load dataset, apply different graphs to check how our data is looking.Check how much data is good or bad for training point of view.
 Tools: Scikit-Learn, Pandas, Matplotlib,Seaborn
@@ -23,14 +24,14 @@ Findings: Using this model .I got accuracy score=Accuracy:98.53658536585365%
 
 Dataset: Health Disease UCI Dataset from kaggle
 
-**✍️ Task 4: [Enter Name of Task 4 - e.g., Spam SMS Detection]**
-Objective: [Briefly describe the goal, e.g., Using NLP to classify messages as Spam or Ham].
+**✍️ Task 4: Stock Price Prediction**
+Objective:Use historical stock data to predict the next day's closing price.
 
-Model Used: [e.g., Naive Bayes / Support Vector Machine]
+Model Used: Linear Rergression and RandomForest Regressor 
 
-Results: [e.g., "Reached 95% precision in identifying spam messages"].
+Results: Using Both these two models,I got auuracy=98%,mean_absolute_error=3.083501060283289,r^2=0.9830225598321138
 
-Tools: [e.g., NLTK, TfidfVectorizer].
+Tools: Stock market data from Yahoo Finance (retrieved using the yfinance Python library)
 
 **🛠️ Technology Stack**
 Language: Python
