@@ -2,29 +2,26 @@
 A collection of AI/ML tasks completed during my internship, covering classification, regression, and data preprocessing.
 This repository contains four key machine learning projects completed during my AI/ML internship. Each project demonstrates proficiency in data handling, model building, and results visualization.
 **🌸 Task 1: Iris Flower Classification**
-Objective: In this
-
+Objective: In this task,I have used iris dataset.In this task,i have seen how to load dataset, apply different graphs to check how our data is looking.Check how much data is good or bad for training point of view.
 Tools: Scikit-Learn, Pandas, Matplotlib,Seaborn
 
-**📈 Task 2: Stock Price Prediction (Short-Term)**
-Objective: Predict the next day's closing price of a stock using historical market data.
+**📈 Task 2: House Price Prediction (Short-Term)**
+Objective: Predict the house prices based on the number of rooms and distance from the city.
+Dataset: house price dataset from kaggle
 
-Dataset: Real-time data fetched from Yahoo Finance via yfinance.
-
-Model Used: RandomForestRegressor
-
-Results: Successfully visualized the trend comparison between actual and predicted prices using Seaborn.
+Model Used: Linear Regression
+Using linear regression model.I have got 96% accuracy with mean_absolute_error_ value=15596.120539083615 and r^2 =0.9600636957617871
 
 Technical Note: Implemented StandardScaler to handle the high variance in trading volume data.
 
-**🔍 Task 3: [Enter Name of Task 3 - e.g., Titanic Survival Prediction]**
-Objective: [Briefly describe the goal, e.g., Predicting if a passenger survived the Titanic crash].
+**🔍 Task 3: Heart Disease Prediction**
+Objective:  Build a model to predict whether a person is at risk of heart disease based on their health data.
 
-Model Used: [e.g., Logistic Regression / Decision Tree]
+Model Used:RandomForest Classifier 
 
-Findings: [e.g., "Gender and Class were the strongest predictors of survival"].
+Findings: Using this model .I got accuracy score=Accuracy:98.53658536585365%
 
-Dataset: [e.g., Kaggle Titanic Dataset].
+Dataset: Health Disease UCI Dataset from kaggle
 
 **✍️ Task 4: [Enter Name of Task 4 - e.g., Spam SMS Detection]**
 Objective: [Briefly describe the goal, e.g., Using NLP to classify messages as Spam or Ham].
